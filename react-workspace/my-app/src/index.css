@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.red{
+  color: red;
+}
+
+section{
+  width: 80vh;
+  padding: 50px;
+  border: 5px solid #ccc;
+}
+.label-email{
+  margin-right: 30px;
+}
+.label-password{
+  margin-right: 8px;
+}
+.label-error{
+  font-size: 1.5vw;
+  font-weight: 700;
+  margin-left: 80px;
+  color: red;
+}
