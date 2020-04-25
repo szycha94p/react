@@ -20,7 +20,7 @@ class App extends Component {
 
 
   handleLogin = (event) => {
-      console.log('event',event);
+      
     this.setState({ isSubmitted: true });
     this.setState({isEmpty: (!this.state.password || !this.state.email)})
 
